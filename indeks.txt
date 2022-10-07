@@ -1,2 +1,1 @@
-https://github.com/ShanghaiG/metody-testowania-oprogramowania/tree/main
-Indeks: 229300
+229300
