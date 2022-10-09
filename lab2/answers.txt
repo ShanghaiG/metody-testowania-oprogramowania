@@ -1,1 +1,16 @@
-totafsdfsf TEST fdsfsdftotafsdTEST2 fdsfsdf fdfjsjfldjfldk # wynikfjdfsfds # k alaldjfjkldsjf TEST5 jjjjjj fsfjdljfdlsj flj ldfjgjjkdsljflds TEST6 jdlkfjdslffjdslkfjdl TEST7 ttttttfjdlsjfkl TEST8 oooolllrwrewrew TEST9 fjdslkjfdlfjdlskjfldjflj TEST10 rewrewrewkolejnytest OGRAN znakinowyszytest TRZYZNAKI wiecejznakowblednytest KOLEJNEZNAKI zaduzoznakowbrakliczby JAKISTEKST nozabrakloatakiprzypadek #COSIESTANIE icoterazgrzybobranie NIEUDALOSInieudalosi lesne
+totafsdfsf TEST fdsfsdf
+totafsdTEST2 fdsfsdf fdfjs
+jfldjfldk # wynik
+fjdfsfds # k alal
+djfjkldsjf TEST5 jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds TEST6 jdlkfjdslf
+fjdslkfjdl TEST7 tttttt
+fjdlsjfkl TEST8 oooolll
+rwrewrew TEST9 fjdslkjfdl
+fjdlskjfldjflj TEST10 rewrewrew
+kolejnytest OGRAN znaki
+nowyszytest TRZYZNAKI wiecejznakow
+blednytest KOLEJNEZNAKI zaduzoznakow
+brakliczby JAKISTEKST nozabraklo
+atakiprzypadek #COSIESTANIE icoteraz
+grzybobranie NIEUDALOSInieudalosi lesne

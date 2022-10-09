@@ -79,6 +79,7 @@ int my_printf(char *format_string, char *param){
         }
         
 	}
+    puts("");
 }
 
 int main(int argc, char *argv[]){
