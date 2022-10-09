@@ -21,7 +21,10 @@ int my_printf(char *format_string, char *param){
 			}
 			
 			printf("%s",param);
-		}else
+		} if else ((format_string[i] == '#') && (format_string[i+1] == '.')){
+
+        }
+        else
 			putchar(format_string[i]);
 	}
 	puts("");
