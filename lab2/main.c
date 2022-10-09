@@ -3,6 +3,11 @@
 
 
 int my_printf(char *format_string, char *param){
+
+    char arrayOutput[100];
+    int helperFlag = 0;
+    int arrayIndex = 0;
+
 	for(int i=0;i<strlen(format_string);i++){
 		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
 			i++;
@@ -22,11 +27,26 @@ int my_printf(char *format_string, char *param){
 			
 			printf("%s",param);
 		} if else ((format_string[i] == '#') && (format_string[i+1] == '.')){
-
+            i++;
+            helperFlag = 1;
         }
-        else
+        else {
 			putchar(format_string[i]);
 	}
+
+    if(helperFlag == 1) {
+        char c = format_string[i];
+
+        if(c >= 48 && c <= 57) {
+            arrayOutput[arrayIndex] = c;
+            arrayIndex++;
+        }
+
+        if (c == "k") {
+            helperFlag = 0;
+        }
+    }
+
 	puts("");
 }
 
