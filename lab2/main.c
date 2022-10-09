@@ -73,11 +73,11 @@ int my_printf(char *format_string, char *param){
                 if (param[i] >= 97 && param[i] <= 122){
                         printf("%c", param[i] - 32);
                     }
-
             }
             numberToPrint = 0;
-        }
 
+        }
+        
 	}
 }
 
