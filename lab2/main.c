@@ -61,34 +61,42 @@ int my_printf(char *format_string, char *param){
             helperFlag = 1;
         }
         else {
-			putchar(format_string[i]);
+
+            if(!helperFlag) {
+                putchar(format_string[i]);
+            }
+
+			
         }
 
 
-            if(helperFlag == 1) {
-        char c = format_string[i];
+        if(helperFlag == 1) {
+            char c = format_string[i];
 
-        if(c >= 48 && c <= 57) {
-            arrayOutput[arrayIndex] = c;
-            arrayIndex++;
+            if(c >= 48 && c <= 57) {
+                arrayOutput[arrayIndex] = c;
+                arrayIndex++;
+            }
+
+            if (c == 'k') {
+                helperFlag = 0;
+
+                numberToPrint = atoi(arrayOutput);
+            }
         }
 
-        if (c == 'k') {
-            //tutaj usunąć K
-            helperFlag = 0;
+        if(numberToPrint) {
+            int paramLength = strlen(param);
 
-            numberToPrint = atoi(arrayOutput);
+            for(int i = 0; i < numberToPrint; i++) {
+                if(i >= paramLength) {
+                    break;
+                }
+                
+                printf("%c", param[i]);
+            }
+            numberToPrint = 0;
         }
-
-
-    }
-
-    if(numberToPrint) {
-        for(int i = 0; i <= numberToPrint; i++) {
-            printf("%c", param[i]);
-        }
-        numberToPrint = 0;
-    }
 
 	}
 }
