@@ -18,3 +18,15 @@ rwrewrew #k fjdslkjfdl
 test9
 fjdlskjfldjflj #k rewrewrew
 test10
+kolejnytest #.5k znaki
+ograniczoneznaki
+nowyszytest #.45k wiecejznakow
+trzyznaki
+blednytest #.4aaa9k zaduzoznakow
+kolejneznaki
+brakliczby #.k nozabraklo
+jakistekst
+atakiprzypadek ##.5k icoteraz
+cosiestanie
+grzybobranie #.5###@#$%@#k lesne
+nieudalosie

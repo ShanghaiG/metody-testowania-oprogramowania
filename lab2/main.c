@@ -11,6 +11,7 @@ int my_printf(char *format_string, char *param){
     int numberToPrint = 0;
 
     	for(int i=0;i<strlen(format_string);i++){
+
 		if((format_string[i] == '#') && (format_string[i+1] == 'k')){
 			i++;
 			
@@ -28,7 +29,8 @@ int my_printf(char *format_string, char *param){
 			}
 			
 			printf("%s",param);
-		}  else if ((format_string[i] == '#') && (format_string[i+1] == '.')){
+		}  
+        else if ((format_string[i] == '#') && (format_string[i+1] == '.')){
             i++;
             helperFlag = 1;
         }
@@ -44,19 +46,19 @@ int my_printf(char *format_string, char *param){
         if(helperFlag == 1) {
             char c = format_string[i];
 
-            if(c >= 48 && c <= 57) {
+            if(c >= 48 && c <= 57){
                 arrayOutput[arrayIndex] = c;
                 arrayIndex++;
             }
 
-            if (c == 'k') {
+            if (c == 'k'){
                 helperFlag = 0;
 
                 numberToPrint = atoi(arrayOutput);
             }
         }
 
-        if(numberToPrint) {
+        if(numberToPrint){
             int paramLength = strlen(param);
 
             for(int i = 0; i < numberToPrint; i++) {
