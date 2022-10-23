@@ -14,7 +14,9 @@ kolejnytest OGRAN znaki
 nowyszytest TRZYZNAKI wiecejznakow
 blednytest KOLEJNEZNAKI zaduzoznakow
 atakiprzypadek #COSIESTANIE icoteraz
-grzybobranie 
-nastepnyprzypadek #TYMRA kolejnepodejscie
-apodwojnekk NOZOBk aterazjakbedzie
+nowyprzypadek TAKITEST powiniendzialac
+nastepnyprzypadek #TYMRAZEM kolejnepodejscie
+przypadeknext #%5k cotusiestanie
+apodwojnekk NOZOBACZk aterazjakbedzie
+podwdojnakropka COSTUTAJZLE noniewiem
 nowezdalne # .5k zodstepem
