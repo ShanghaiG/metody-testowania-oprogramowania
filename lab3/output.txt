@@ -8,15 +8,10 @@ fjdslkfjdl TEST7 tttttt
 fjdlsjfkl TEST8 oooolll
 rwrewrew TEST9 fjdslkjfdl
 fjdlskjfldjflj TEST10 rewrewrew
+nowysprawdzian TE bezkropki
+sprawdzian # 2k spacja
 kolejnytest OGRAN znaki
 nowyszytest TRZYZNAKI wiecejznakow
 blednytest KOLEJNEZNAKI zaduzoznakow
 atakiprzypadek #COSIESTANIE icoteraz
-grzybobranie NIEUDALOSIEnieudalosie lesne
-nowyprzypadek TAKITEST powiniendzialac
-nastepnyprzypadek #TYMRAZEM kolejnepodejscie
-przypadeknext #%5k cotusiestanie
-apodwojnekk NOZOBACZMYk aterazjakbedzie
-podwdojnakropka PIECROZNYCH noniewiem
-nowezdalne # .5k zodstepem
-podejscie nastepne # 5k popatrzmyteraz
+

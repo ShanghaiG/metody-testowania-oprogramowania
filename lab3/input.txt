@@ -18,6 +18,10 @@ rwrewrew #k fjdslkjfdl
 test9
 fjdlskjfldjflj #k rewrewrew
 test10
+nowysprawdzian #2k bezkropki
+testbez
+sprawdzian # 2k spacja
+jakzespacja
 kolejnytest #.5k znaki
 ograniczoneznaki
 nowyszytest #.45k wiecejznakow
@@ -26,19 +30,4 @@ blednytest #.4aaa9k zaduzoznakow
 kolejneznaki
 atakiprzypadek ##.5k icoteraz
 cosiestanie
-grzybobranie #.5###@#$%@#k lesne
-nieudalosie
-nowyprzypadek #2k powiniendzialac
-takitest
-nastepnyprzypadek ##5k kolejnepodejscie
-tymrazem
-przypadeknext #%5k cotusiestanie
-zobaczymy
-apodwojnekk #5kk aterazjakbedzie
-nozobaczmy
-podwdojnakropka #.5.k noniewiem
-piecroznych
-nowezdalne # .5k zodstepem
-pieckropek
-podejscie nastepne # 5k popatrzmyteraz
-nopopatrzmy
+
