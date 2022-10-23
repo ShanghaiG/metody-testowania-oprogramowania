@@ -28,3 +28,19 @@ brakliczby #.k nozabraklo
 jakistekst
 atakiprzypadek ##.5k icoteraz
 cosiestanie
+grzybobranie #.5###@#$%@#k lesne
+nieudalosie
+nowyprzypadek #2k powiniendzialac
+takitest
+nastepnyprzypadek ##5k kolejnepodejscie
+tymrazem
+przypadeknext #%5k cotusiestanie
+zobaczymy
+apodwojnekk #5kk aterazjakbedzie
+nozobaczmy
+podwdojnakropka #.5.k noniewiem
+piecroznych
+nowezdalne # .5k zodstepem
+pieckropek
+podejscie nastepne # 5k popatrzmyteraz
+nopopatrzmy

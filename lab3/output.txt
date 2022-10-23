@@ -12,4 +12,6 @@ kolejnytest OGRAN znaki
 nowyszytest TRZYZNAKI wiecejznakow
 blednytest KOLEJNEZNAKI zaduzoznakow
 brakliczby JAKISTEKST nozabraklo
-atakiprzypadek tak wszedlem tutajCOSIESTANIE icoteraz
+podejscie nastepne # 5k popatrzmyteraz
+podwdojnakropka PIECROZNYCH noniewiem
+nowezdalne # .5k zodstepem
