@@ -11,10 +11,12 @@ fjdlskjfldjflj TEST10 rewrewrew
 kolejnytest OGRAN znaki
 nowyszytest TRZYZNAKI wiecejznakow
 blednytest KOLEJNEZNAKI zaduzoznakow
-brakliczby JAKISTEKST nozabraklo
-atakiprzypadek #COSIESTANIE icoteraz
-grzybobranie NIEUDALOSInieudalosi lesne
-nastepnyprzypadek ##5k kolejnepodejscie
+atakiprzypadek #COSIE icoteraz
+grzybobranie #.5###@#$%@NIEUDALOSIE lesne
+nowyprzypadek TA powiniendzialac
+nastepnyprzypadek #TYMRA kolejnepodejscie
 przypadeknext #%5k cotusiestanie
 apodwojnekk NOZOBk aterazjakbedzie
-podwdojnakropka #.5.k noniewiem
+podwdojnakropka PIECR noniewiem
+nowezdalne # .5k zodstepem
+podejscienastepne # 5k popatrzmyteraz

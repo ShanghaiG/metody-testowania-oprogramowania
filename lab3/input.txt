@@ -24,8 +24,6 @@ nowyszytest #.45k wiecejznakow
 trzyznaki
 blednytest #.4aaa9k zaduzoznakow
 kolejneznaki
-brakliczby #.k nozabraklo
-jakistekst
 atakiprzypadek ##.5k icoteraz
 cosiestanie
 grzybobranie #.5###@#$%@#k lesne

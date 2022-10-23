@@ -29,12 +29,12 @@ int my_printf(char *format_string, char *param){
 			}
 			
 			printf("%s",param);
-		}  
+		}
         else if ((format_string[i] == '#') && (format_string[i+1] == '.')){
             i++;
             helperFlag = 1;
         }
-        else if ((format_string[i] == '#') && (format_string[i+1] != 'k' && format_string[i+1] != ' ' && format_string[i+1] >= 48 && format_string[i+1] <= 57)) {
+        else if ((format_string[i] == '#') && (format_string[i+1] != 'k' && format_string[i+1] != ' ' && format_string[i+1] >= 48 && format_string[i+1] <= 57)) {      
             helperFlag = 1;
         }
         else {
@@ -82,6 +82,8 @@ int my_printf(char *format_string, char *param){
         }
         
 	}
+    char newArray[100];
+    arrayOutput[100] = newArray[100];
     puts("");
 }
 
