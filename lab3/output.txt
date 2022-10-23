@@ -8,3 +8,8 @@ fjdslkfjdl TEST7 tttttt
 fjdlsjfkl TEST8 oooolll
 rwrewrew TEST9 fjdslkjfdl
 fjdlskjfldjflj TEST10 rewrewrew
+kolejnytest OGRAN znaki
+nowyszytest TRZYZNAKI wiecejznakow
+blednytest KOLEJNEZNAKI zaduzoznakow
+brakliczby JAKISTEKST nozabraklo
+atakiprzypadek tak wszedlem tutajCOSIESTANIE icoteraz

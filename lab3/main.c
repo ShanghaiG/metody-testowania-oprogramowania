@@ -36,7 +36,6 @@ int my_printf(char *format_string, char *param){
         }
         else if ((format_string[i] == '#') && (format_string[i+1] != 'k' && format_string[i+1] != ' ')) {
             helperFlag = 1;
-            printf("tak wszedlem tutaj");
         }
         else {
 
