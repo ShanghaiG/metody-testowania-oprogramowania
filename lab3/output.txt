@@ -1,8 +1,3 @@
-totafsdfsf TEST fdsfsdf
-totafsdTEST2 fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf TEST5 jjjjjj fsfjdljfdlsj flj ldfj
 gjjkdsljflds TEST6 jdlkfjdslf
 fjdslkfjdl TEST7 tttttt
 fjdlsjfkl TEST8 oooolll
@@ -12,6 +7,12 @@ kolejnytest OGRAN znaki
 nowyszytest TRZYZNAKI wiecejznakow
 blednytest KOLEJNEZNAKI zaduzoznakow
 brakliczby JAKISTEKST nozabraklo
-podejscie nastepne # 5k popatrzmyteraz
+atakiprzypadek COSIESTANIE icoteraz
+grzybobranie NIEUDALOSIEnieudalosie lesne
+nowyprzypadek TAKITEST powiniendzialac
+nastepnyprzypadek TYMRAZEM kolejnepodejscie
+przypadeknext ZOBACZYMY cotusiestanie
+apodwojnekk NOZOBACZMYk aterazjakbedzie
 podwdojnakropka PIECROZNYCH noniewiem
 nowezdalne # .5k zodstepem
+podejscie nastepne # 5k popatrzmyteraz

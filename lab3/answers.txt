@@ -14,3 +14,7 @@ blednytest KOLEJNEZNAKI zaduzoznakow
 brakliczby JAKISTEKST nozabraklo
 atakiprzypadek #COSIESTANIE icoteraz
 grzybobranie NIEUDALOSInieudalosi lesne
+nastepnyprzypadek ##5k kolejnepodejscie
+przypadeknext #%5k cotusiestanie
+apodwojnekk NOZOBk aterazjakbedzie
+podwdojnakropka #.5.k noniewiem
