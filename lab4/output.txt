@@ -11,3 +11,7 @@ dziesiaty 4788 kolejnyTest
 jedenasty #k blednyTest
 dwanascie 91887779188777 zobaczymy
 trzynascie 155 nowytest
+czternascie 0055 kolejnyTest
+pietnascie # coteraz
+szesnascie g# ateraz
+siedemnascie g noico
