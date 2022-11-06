@@ -16,4 +16,5 @@ pietnascie # coteraz
 szesnascie g# ateraz
 siedemnascie g noico
 osiemnascie  brak
-dziewietnascie g atakiprzypadek
+dziewietnascie  atakiprzypadek
+dwadziescia %g zlyprzypadek
