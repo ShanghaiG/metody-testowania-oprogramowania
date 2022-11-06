@@ -17,4 +17,4 @@ szesnascie g# ateraz
 siedemnascie g noico
 osiemnascie  brak
 dziewietnascie  atakiprzypadek
-dwadziescia %g zlyprzypadek
+dwadziescia 552354 przypadekwhiteznaki

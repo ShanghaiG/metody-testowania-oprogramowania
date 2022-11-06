@@ -24,7 +24,6 @@ function myPrintf(formatString, param){
 				}
 			}
 			newNumber = reverseString(newNumber);
-
 			process.stdout.write(newNumber);
 
 			i++;
