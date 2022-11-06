@@ -15,3 +15,5 @@ czternascie 0055 kolejnyTest
 pietnascie # coteraz
 szesnascie g# ateraz
 siedemnascie g noico
+osiemnascie  brak
+dziewietnascie g atakiprzypadek

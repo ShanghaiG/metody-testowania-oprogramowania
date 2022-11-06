@@ -32,3 +32,7 @@ szesnascie g# ateraz
 77aa661b2
 siedemnascie g noico
 812d2#2
+osiemnascie  brak
+1234
+dziewietnascie #g atakiprzypadek
+#g

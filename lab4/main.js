@@ -16,7 +16,8 @@ function myPrintf(formatString, param){
 	for(var i=0;i<formatString.length;i++){
 		if((formatString.charAt(i) == '#') && (formatString.charAt(i+1) == 'g')){
 			let newNumber = "";
-		
+			
+			if(param){
 			for(let letter of param) {
 				if(checkIfNumber(letter)) {
 					newNumber += letter;
@@ -27,6 +28,7 @@ function myPrintf(formatString, param){
 			process.stdout.write(newNumber);
 
 			i++;
+		}
 		}
 		else{
 			process.stdout.write(formatString.charAt(i));
