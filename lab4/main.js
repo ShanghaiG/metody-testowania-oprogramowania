@@ -8,6 +8,10 @@ function checkIfNumber (letter) {
 		return /^\d+$/.test(letter);
 }
 
+function reverseString (passedString) {
+	return passedString.split("").reverse().join("");
+}
+
 function myPrintf(formatString, param){
 	for(var i=0;i<formatString.length;i++){
 		if((formatString.charAt(i) == '#') && (formatString.charAt(i+1) == 'g')){
@@ -18,7 +22,7 @@ function myPrintf(formatString, param){
 					newNumber += letter;
 				}
 			}
-
+			newNumber = reverseString(newNumber);
 
 			process.stdout.write(newNumber);
 
