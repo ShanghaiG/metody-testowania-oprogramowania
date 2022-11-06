@@ -1,7 +1,13 @@
-co w newNumber 
-co w nextNumber 12345
-zreversowany 54321
-type of string
-typeof 2 string
-co tam w param $d12dd345dd
 testnowy 54321 nowytest
+testdrugi 122555 przetestujmy
+testtrzeci 5432 jakisnowytest
+czwarty 1955k kolejnytest
+piaty999777 zobaczymy
+szosty 21 szostytest
+siodmy # g siodmytest
+osmy 2777 osmyTest
+dziewiaty 4432 dziewiatyTest
+dziesiaty 4788 kolejnyTest
+jedenasty #k blednyTest
+dwanascie 91887779188777 zobaczymy
+trzynascie 155 nowytest
