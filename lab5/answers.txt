@@ -20,4 +20,5 @@ samehashe #### testowanko
 spacje     brak
 spacjezliterko    d   brak
 znaczki 012012 nowytest
-znaczki 04g nowytest
+znaczki 01201243 nowytest
+ostatniprzypadek $55g ogarniecie

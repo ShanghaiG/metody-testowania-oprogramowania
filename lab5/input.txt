@@ -44,3 +44,5 @@ znaczki #2g nowytest
 #$%123123$$
 znaczki #04g nowytest
 #$%123123dd54$
+ostatniprzypadek $55g ogarniecie
+789123
