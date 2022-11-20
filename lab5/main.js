@@ -54,7 +54,7 @@ function myPrintf(formatString, param){
 	let parsedParam = param;
 
 	if(!parsedParam) {
-		process.stdout.write(`${firstPartOfString}${"undefined"}${lastPartOfString}`);
+		process.stdout.write(`${firstPartOfString}${"testy"}${lastPartOfString}`);
 		console.log("");
 		return;
 	}
@@ -67,7 +67,7 @@ function myPrintf(formatString, param){
 
 	for(let letter of parsedParam) {
 		if(checkIfNumber(letter)){
-			finalNumber += shiftNumber(letter);
+			finalNumber += shiftNumber(+letter);
 		} else {
 			break; 
 		}

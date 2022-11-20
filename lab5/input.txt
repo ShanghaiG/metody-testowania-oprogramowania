@@ -52,3 +52,5 @@ test #4#4g testnowy
 4444
 przypadekomg #2g nowyprzypadekd
 456dd33dd
+zmianka #2g zmiankanowa
+0099

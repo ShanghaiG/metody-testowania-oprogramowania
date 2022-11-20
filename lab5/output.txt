@@ -25,3 +25,4 @@ ostatniprzypadek $55g ogarniecie
 nowyprzypadek012012dalszytekst
 test #4#4g testnowy
 przypadekomg 345 nowyprzypadekd
+zmianka 9988 zmiankanowa
