@@ -72,12 +72,25 @@ function myPrintf(formatString, param){
 						finalShiftedNumber += singleNumberHolder.toString();
 					}
 				}
-				console.log("co w finalShiftedNumber", finalShiftedNumber);
+				// console.log("co w finalShiftedNumber", finalShiftedNumber);
+
+				console.log(" shiftedParam.length to ", shiftedParam.length);
+				console.log(" +beforeCharts ", +beforeGchars);
 
 				if (shiftedParam.length < +beforeGchars) {
-						finalShiftedNumber = (+beforeGchars-shiftedParam.length)* " " + finalShiftedNumber;
+					console.log("wszedlem pierwszy if");
+					let spaces = "";
+					for(let i = 0; i< (+shiftNumber.length-(+beforeGchars)); i++) {
+						spaces += " ";
+					}
+					finalShiftedNumber = spaces + finalShiftedNumber;
 				}
-				
+
+				if(shiftedParam.length > +beforeGchars) {
+					console.log("wszedlem drugi if");
+					process.stdout.write(finalShiftedNumber.toString());
+				}
+				console.log("co jest w finalShiftedNumber", finalShiftedNumber);
 				process.stdout.write(finalShiftedNumber.toString());
 	
 				i++;

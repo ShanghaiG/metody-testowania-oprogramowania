@@ -1,7 +1,16 @@
 testpierwszy 01234 nowytest
-testdrugi co w finalShiftedNumber 012345
+testdrugi  shiftedParam.length to  6
+ +beforeCharts  3
+wszedlem drugi if
+012345co jest w finalShiftedNumber 012345
 012345g nastepnytest
-testtrzeci co w finalShiftedNumber 01
-001g nastepnytest
-testczwarty co w finalShiftedNumber 01
+testtrzeci  shiftedParam.length to  2
+ +beforeCharts  3
+wszedlem pierwszy if
+co jest w finalShiftedNumber 01
+01g nastepnytest
+testczwarty  shiftedParam.length to  2
+ +beforeCharts  1
+wszedlem drugi if
+01co jest w finalShiftedNumber 01
 01g nastepnytest
