@@ -2,9 +2,7 @@ testpierwszy #g nowytest
 $d12dd345dd
 testdrugi #3g nastepnytest
 123456
-testtrzeci #4g kolejnytest
-0123
-testczwarty #11g nastepnytest
-12345678901234
-testnowypiec #5g5 kolejnytest
-1234567
+testtrzeci #3g nastepnytest
+12
+testczwarty #1g nastepnytest
+12

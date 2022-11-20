@@ -1,9 +1,7 @@
-testpierwszy #g nowytest
-testdrugi zajrzalem
-012g nastepnytest
-testtrzeci zajrzalem
-9012g kolejnytest
-testczwarty zajrzalem
-012345678901g nastepnytest
-testnowypiec zajrzalem
-5g5 kolejnytest
+testpierwszy 01234 nowytest
+testdrugi co w finalShiftedNumber 012345
+012345g nastepnytest
+testtrzeci co w finalShiftedNumber 01
+001g nastepnytest
+testczwarty co w finalShiftedNumber 01
+01g nastepnytest

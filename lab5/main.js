@@ -20,8 +20,25 @@ function shiftNumber (singleNumber) {
 
 function myPrintf(formatString, param){
 	for(var i=0;i<formatString.length;i++){
+		if((formatString.charAt(i) == '#') && (formatString.charAt(i+1) == 'g')){
+			let finalShiftedNumber = "";
+			let singleNumberHolder = 0;
+			
+			if(param){
+				for(let letter of param) {
+					if(checkIfNumber(letter)) {
+						singleNumberHolder = shiftNumber(+letter);
+	
+						finalShiftedNumber += singleNumberHolder;
+					}
+				}
+			
+			process.stdout.write(finalShiftedNumber);
 
-		if ((formatString.charAt(i) == "#") && (formatString.charAt(i+1) !== "g")) {
+			i++;
+		}
+		}
+		else if ((formatString.charAt(i) == "#") && (formatString.charAt(i+1) !== "g")) {
 			// console.log("zajrzalem");
 			let beforeGchars = "";
 			let j = i+1;
@@ -30,7 +47,7 @@ function myPrintf(formatString, param){
 
 
 			while(formatString.charAt(j) != "g") {
-				console.log("co tutaj", formatString.charAt(j));
+				
 				beforeGchars += formatString.charAt(j);
 				j++;
 			}
@@ -38,20 +55,30 @@ function myPrintf(formatString, param){
 			if(param){
 				let shiftedParam = param;
 
-				if (shiftedParam.length > +beforeGchars) {
-					shiftedParam = shiftedParam.substring(0, beforeGchars);
-				}
+				// if(beforeGchars[0] == "0") {
+				// 	if (shiftedParam.length < +beforeGchars) {
+				// 		shiftedParam = shiftedParam.substring(0, beforeGchars);
+				// 	}
+				// }
 
 
-				for(let letter of shiftedParam) {
+	
+				// console.log("shiftedParam to", shiftedParam);
+
+				for(let letter of param) {
 					if(checkIfNumber(letter)) {
 						singleNumberHolder = shiftNumber(+letter);
 	
-						finalShiftedNumber += singleNumberHolder;
+						finalShiftedNumber += singleNumberHolder.toString();
 					}
 				}
+				console.log("co w finalShiftedNumber", finalShiftedNumber);
+
+				if (shiftedParam.length < +beforeGchars) {
+						finalShiftedNumber = (+beforeGchars-shiftedParam.length)* " " + finalShiftedNumber;
+				}
 				
-				process.stdout.write(finalShiftedNumber);
+				process.stdout.write(finalShiftedNumber.toString());
 	
 				i++;
 			}
