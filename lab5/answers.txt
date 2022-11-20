@@ -1,20 +1,23 @@
-testnowy 54321 nowytest
-testdrugi 122555 przetestujmy
-testtrzeci 5432 jakisnowytest
-czwarty 1955k kolejnytest
-piaty999777 zobaczymy
-szosty 21 szostytest
-siodmy # g siodmytest
-osmy 2777 osmyTest
-dziewiaty 4432 dziewiatyTest
-dziesiaty 4788 kolejnyTest
-jedenasty #k blednyTest
-dwanascie 91887779188777 zobaczymy
-trzynascie 155 nowytest
-czternascie 0055 kolejnyTest
-pietnascie # coteraz
-szesnascie g# ateraz
-siedemnascie g noico
-osiemnascie  brak
-dziewietnascie  atakiprzypadek
-dwadziescia 552354 przypadekwhiteznaki
+testpierwszy 01234 nowytest
+testdrugi 012345 nastepnytest
+testtrzeci  01 nastepnytest
+testdzialajacy   01 nastepnytest
+testkolejny 012 nastepnytest
+testnastepny 0012 kolejnytest
+testnormalny 12 kolejnytest
+testprzystepny 12 kolejnytest
+testzlyparam #2n coszle
+testkolejnyblednydwa #d#04g coszle
+testbledny #0d4g kolejnytest
+testogarniety #d04g kolejnytest
+testkolejnybledny 04g coszle
+testczwarty 12 nastepnytest
+testkolejny 000000003 wielezer
+testkolejny 000000003 sprawdzmy
+testkolejny 000000034 tezzadziala
+testkolejny 340124432876428 tutajbezzer
+samehashe #### testowanko
+spacje     brak
+spacjezliterko    d   brak
+znaczki 012012 nowytest
+znaczki 04g nowytest

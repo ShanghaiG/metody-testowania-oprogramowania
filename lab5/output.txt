@@ -17,3 +17,7 @@ testkolejny 000000003 sprawdzmy
 testkolejny 000000034 tezzadziala
 testkolejny 340124432876428 tutajbezzer
 samehashe #### testowanko
+spacje     brak
+spacjezliterko    d   brak
+znaczki 012012 nowytest
+znaczki 04g nowytest

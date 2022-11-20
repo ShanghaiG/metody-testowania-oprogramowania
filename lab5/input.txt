@@ -36,3 +36,11 @@ testkolejny #0009g tutajbezzer
 451235543987539
 samehashe #### testowanko
 444333
+spacje     brak
+123123
+spacjezliterko    d   brak
+123123
+znaczki #2g nowytest
+#$%123123$$
+znaczki #04g nowytest
+#$%123123dd54$
