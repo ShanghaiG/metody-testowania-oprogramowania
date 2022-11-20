@@ -8,8 +8,10 @@ function checkIfNumber (letter) {
 		return /^\d+$/.test(letter);
 }
 
-function reverseString (passedString) {
-	return passedString.split("").reverse().join("");
+
+
+function () {
+
 }
 
 function myPrintf(formatString, param){
@@ -23,7 +25,7 @@ function myPrintf(formatString, param){
 					newNumber += letter;
 				}
 			}
-			newNumber = reverseString(newNumber);
+			newNumber = ;
 			process.stdout.write(newNumber);
 
 			i++;
