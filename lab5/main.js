@@ -9,7 +9,6 @@ function checkIfNumber (letter) {
 }
 
 
-
 function shiftNumber (singleNumber) {
 	if(singleNumber === 0) {
 		return 9;
@@ -18,123 +17,68 @@ function shiftNumber (singleNumber) {
 	}
 }
 
-function getPartOfString (formatedString, part) {
-	let parts = formatedString.split(" ");
-
-	return parts[part];
-}
-
 
 function myPrintf(formatString, param){
-	for(var i=0;i<formatString.length;i++){
-		if((formatString.charAt(i) == '#') && (formatString.charAt(i+1) == 'g')){
-			let finalShiftedNumber = "";
-			let singleNumberHolder = 0;
-			
-			if(param){
-				for(let letter of param) {
-					if(checkIfNumber(letter)) {
-						singleNumberHolder = shiftNumber(+letter);
-	
-						finalShiftedNumber += singleNumberHolder;
-					}
-				}
-			
-			process.stdout.write(finalShiftedNumber);
+	let firstStringArray = formatString.split("#");
 
-			i++;
-		}
-		}
-		else if ((formatString.charAt(i) == "#") && (formatString.charAt(i+1) !== "g")) {
-			let beforeGchars = "";
-			let j = i+1;
-			let finalShiftedNumber = "";
-			let singleNumberHolder = 0;
-
-
-
-			while(formatString.charAt(j) != "g") {
-
-				if(formatString.charAt(j).match(/[a-z]/i)) {
-	
-					process.stdout.write(`${getPartOfString(formatString, 1)} ${getPartOfString(formatString, 2)}`);
-					console.log("");
-					return;
-				}
-				
-				beforeGchars += formatString.charAt(j);
-				j++;
-			}
-
-			if(param){
-				let shiftedParam = param;
-
-				for(let letter of param) {
-					if(checkIfNumber(letter)) {
-						singleNumberHolder = shiftNumber(+letter);
-	
-						finalShiftedNumber += singleNumberHolder.toString();
-					}
-				}
-
-				if(beforeGchars[0] == "0") {
-					if (shiftedParam.length < +beforeGchars) {
-						let zeros = "";
-						let parsedBeforeChars = +beforeGchars;
-						let diff = Math.abs(shiftedParam.length - parsedBeforeChars);
-	
-						for(let i = 0; i< diff; i++) {
-							zeros += "0";
-						}
-						finalShiftedNumber = zeros + finalShiftedNumber;
-	
-						process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
-						console.log("");
-						return;
-					}
-	
-					if(shiftedParam.length >= +beforeGchars) {
-						process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
-						console.log("");
-						return;
-					}
-				}
-
-				if (shiftedParam.length < +beforeGchars) {
-					let spaces = "";
-					let parsedBeforeChars = +beforeGchars;
-					let diff = Math.abs(shiftedParam.length - parsedBeforeChars);
-
-					for(let i = 0; i< diff; i++) {
-						spaces += " ";
-					}
-					finalShiftedNumber = spaces + finalShiftedNumber;
-
-					process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
-					console.log("");
-					return;
-				}
-
-				if(shiftedParam.length >= +beforeGchars) {
-					process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
-					console.log("");
-					return;
-				}
-				
-	
-				i++;
-			}
-
-		}
-		else if ((formatString.charAt(i) == "#") && (checkIfNumber(formatString.charAt(i+1)))) {
-			process.stdout.write(formatString.charAt(i));
-		}
-		else{
-			process.stdout.write(formatString.charAt(i));
-		}
+	if(firstStringArray.length < 2) {
+		process.stdout.write(formatString);
+		console.log("");
+		return;
 	}
 
+	const firstPartOfString = firstStringArray[0];
+
+	let secondStringArray  = firstStringArray[1].split(/g(.*)/s, 2);
+
+	if(secondStringArray.length < 2) {
+		process.stdout.write(formatString);
+		console.log("");
+		return;
+	}
+
+	const lastPartOfString = secondStringArray[1];
+
+	let numbers = 0;
+
+	let fillWith = null;
+
+	if(checkIfNumber(secondStringArray[0])) {
+		numbers = +secondStringArray[0];
+
+		fillWith = secondStringArray[0].startsWith("0") ? "0" : " ";
+	}	
+
+	let finalNumber = "";
+
+	let parsedParam = param;
+
+	if(!parsedParam) {
+		process.stdout.write(`${firstPartOfString}${"undefined"}${lastPartOfString}`);
+		console.log("");
+		return;
+	}
+
+	if(!parsedParam.charAt(0).match(/[0-9]/i)) {
+		process.stdout.write(`${firstPartOfString}${0}${lastPartOfString}`);
+		console.log("");
+		return;
+	}
+
+	for(let letter of parsedParam) {
+		if(checkIfNumber(letter)){
+			finalNumber += shiftNumber(letter);
+		} else {
+			break; 
+		}
+		
+	}
+
+	const replacedString = finalNumber.padStart(numbers, fillWith);
+
+	process.stdout.write(`${firstPartOfString}${replacedString}${lastPartOfString}`);
 	console.log("");
+	return;
 	
 }
 
@@ -147,6 +91,5 @@ process.stdin.on('data', function(chunk) {
 		myPrintf(lines[i],lines[i+1])
 		i++;
 	}
-
 });
 

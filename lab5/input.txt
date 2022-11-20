@@ -46,3 +46,9 @@ znaczki #04g nowytest
 #$%123123dd54$
 ostatniprzypadek $55g ogarniecie
 789123
+nowyprzypadek#5gdalszytekst
+123123
+test #4#4g testnowy
+4444
+przypadekomg #2g nowyprzypadekd
+456dd33dd
