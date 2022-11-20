@@ -55,15 +55,7 @@ function myPrintf(formatString, param){
 			if(param){
 				let shiftedParam = param;
 
-				// if(beforeGchars[0] == "0") {
-				// 	if (shiftedParam.length < +beforeGchars) {
-				// 		shiftedParam = shiftedParam.substring(0, beforeGchars);
-				// 	}
-				// }
 
-
-	
-				// console.log("shiftedParam to", shiftedParam);
 
 				for(let letter of param) {
 					if(checkIfNumber(letter)) {
@@ -74,24 +66,53 @@ function myPrintf(formatString, param){
 				}
 				// console.log("co w finalShiftedNumber", finalShiftedNumber);
 
-				console.log(" shiftedParam.length to ", shiftedParam.length);
-				console.log(" +beforeCharts ", +beforeGchars);
+				// console.log(" shiftedParam.length to ", shiftedParam.length);
+				// console.log(" +beforeCharts ", +beforeGchars);
+
+				if(beforeGchars[0] == "0") {
+					if (shiftedParam.length < +beforeGchars) {
+						let zeros = "";
+						let parsedBeforeChars = +beforeGchars;
+						let diff = Math.abs(shiftedParam.length - parsedBeforeChars);
+	
+						for(let i = 0; i< diff; i++) {
+							zeros += "0";
+						}
+						finalShiftedNumber = zeros + finalShiftedNumber;
+	
+						process.stdout.write(finalShiftedNumber);
+						console.log("");
+						return;
+					}
+	
+					if(shiftedParam.length >= +beforeGchars) {
+						process.stdout.write(finalShiftedNumber.toString());
+						console.log("");
+						return;
+					}
+				}
 
 				if (shiftedParam.length < +beforeGchars) {
-					console.log("wszedlem pierwszy if");
 					let spaces = "";
-					for(let i = 0; i< (+shiftNumber.length-(+beforeGchars)); i++) {
+					let parsedBeforeChars = +beforeGchars;
+					let diff = Math.abs(shiftedParam.length - parsedBeforeChars);
+
+					for(let i = 0; i< diff; i++) {
 						spaces += " ";
 					}
 					finalShiftedNumber = spaces + finalShiftedNumber;
+
+					process.stdout.write(finalShiftedNumber);
+					console.log("");
+					return;
 				}
 
-				if(shiftedParam.length > +beforeGchars) {
-					console.log("wszedlem drugi if");
+				if(shiftedParam.length >= +beforeGchars) {
 					process.stdout.write(finalShiftedNumber.toString());
+					console.log("");
+					return;
 				}
-				console.log("co jest w finalShiftedNumber", finalShiftedNumber);
-				process.stdout.write(finalShiftedNumber.toString());
+				
 	
 				i++;
 			}

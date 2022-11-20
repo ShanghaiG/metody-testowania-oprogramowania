@@ -4,5 +4,11 @@ testdrugi #3g nastepnytest
 123456
 testtrzeci #3g nastepnytest
 12
-testczwarty #1g nastepnytest
+testdzialajacy #4g nastepnytest
 12
+testkolejny #03g nastepnytest
+23
+testnastepny #04g kolejnytest
+23
+testczwarty #1g nastepnytest
+23
