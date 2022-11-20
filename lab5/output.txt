@@ -1,20 +1,9 @@
-testnowy 54321 nowytest
-testdrugi 122555 przetestujmy
-testtrzeci 5432 jakisnowytest
-czwarty 1955k kolejnytest
-piaty999777 zobaczymy
-szosty 21 szostytest
-siodmy # g siodmytest
-osmy 2777 osmyTest
-dziewiaty 4432 dziewiatyTest
-dziesiaty 4788 kolejnyTest
-jedenasty #k blednyTest
-dwanascie 91887779188777 zobaczymy
-trzynascie 155 nowytest
-czternascie 0055 kolejnyTest
-pietnascie # coteraz
-szesnascie g# ateraz
-siedemnascie g noico
-osiemnascie  brak
-dziewietnascie  atakiprzypadek
-dwadziescia 552354 przypadekwhiteznaki
+testpierwszy #g nowytest
+testdrugi zajrzalem
+012g nastepnytest
+testtrzeci zajrzalem
+9012g kolejnytest
+testczwarty zajrzalem
+012345678901g nastepnytest
+testnowypiec zajrzalem
+5g5 kolejnytest
