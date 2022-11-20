@@ -18,6 +18,13 @@ function shiftNumber (singleNumber) {
 	}
 }
 
+function getPartOfString (formatedString, part) {
+	let parts = formatedString.split(" ");
+
+	return parts[part];
+}
+
+
 function myPrintf(formatString, param){
 	for(var i=0;i<formatString.length;i++){
 		if((formatString.charAt(i) == '#') && (formatString.charAt(i+1) == 'g')){
@@ -39,14 +46,21 @@ function myPrintf(formatString, param){
 		}
 		}
 		else if ((formatString.charAt(i) == "#") && (formatString.charAt(i+1) !== "g")) {
-			// console.log("zajrzalem");
 			let beforeGchars = "";
 			let j = i+1;
 			let finalShiftedNumber = "";
 			let singleNumberHolder = 0;
 
 
+
 			while(formatString.charAt(j) != "g") {
+
+				if(formatString.charAt(j).match(/[a-z]/i)) {
+	
+					process.stdout.write(`${getPartOfString(formatString, 1)} ${getPartOfString(formatString, 2)}`);
+					console.log("");
+					return;
+				}
 				
 				beforeGchars += formatString.charAt(j);
 				j++;
@@ -55,8 +69,6 @@ function myPrintf(formatString, param){
 			if(param){
 				let shiftedParam = param;
 
-
-
 				for(let letter of param) {
 					if(checkIfNumber(letter)) {
 						singleNumberHolder = shiftNumber(+letter);
@@ -64,10 +76,6 @@ function myPrintf(formatString, param){
 						finalShiftedNumber += singleNumberHolder.toString();
 					}
 				}
-				// console.log("co w finalShiftedNumber", finalShiftedNumber);
-
-				// console.log(" shiftedParam.length to ", shiftedParam.length);
-				// console.log(" +beforeCharts ", +beforeGchars);
 
 				if(beforeGchars[0] == "0") {
 					if (shiftedParam.length < +beforeGchars) {
@@ -80,13 +88,13 @@ function myPrintf(formatString, param){
 						}
 						finalShiftedNumber = zeros + finalShiftedNumber;
 	
-						process.stdout.write(finalShiftedNumber);
+						process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
 						console.log("");
 						return;
 					}
 	
 					if(shiftedParam.length >= +beforeGchars) {
-						process.stdout.write(finalShiftedNumber.toString());
+						process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
 						console.log("");
 						return;
 					}
@@ -102,13 +110,13 @@ function myPrintf(formatString, param){
 					}
 					finalShiftedNumber = spaces + finalShiftedNumber;
 
-					process.stdout.write(finalShiftedNumber);
+					process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
 					console.log("");
 					return;
 				}
 
 				if(shiftedParam.length >= +beforeGchars) {
-					process.stdout.write(finalShiftedNumber.toString());
+					process.stdout.write(`${finalShiftedNumber.toString()} ${getPartOfString(formatString, 2)}`);
 					console.log("");
 					return;
 				}
@@ -118,12 +126,16 @@ function myPrintf(formatString, param){
 			}
 
 		}
+		else if ((formatString.charAt(i) == "#") && (checkIfNumber(formatString.charAt(i+1)))) {
+			process.stdout.write(formatString.charAt(i));
+		}
 		else{
 			process.stdout.write(formatString.charAt(i));
 		}
 	}
 
 	console.log("");
+	
 }
 
 process.stdin.on('data', function(chunk) {

@@ -1,7 +1,19 @@
 testpierwszy 01234 nowytest
-testdrugi 012345
-testtrzeci  01
-testdzialajacy   01
-testkolejny 012
-testnastepny 0012
-testczwarty 12
+testdrugi 012345 nastepnytest
+testtrzeci  01 nastepnytest
+testdzialajacy   01 nastepnytest
+testkolejny 012 nastepnytest
+testnastepny 0012 kolejnytest
+testnormalny 12 kolejnytest
+testprzystepny 12 kolejnytest
+testzlyparam #2n coszle
+testkolejnyblednydwa #d#04g coszle
+testbledny #0d4g kolejnytest
+testogarniety #d04g kolejnytest
+testkolejnybledny 04g coszle
+testczwarty 12 nastepnytest
+testkolejny 000000003 wielezer
+testkolejny 000000003 sprawdzmy
+testkolejny 000000034 tezzadziala
+testkolejny 340124432876428 tutajbezzer
+samehashe #### testowanko

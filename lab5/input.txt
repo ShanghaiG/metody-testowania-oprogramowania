@@ -10,5 +10,29 @@ testkolejny #03g nastepnytest
 23
 testnastepny #04g kolejnytest
 23
+testnormalny #01g kolejnytest
+23
+testprzystepny #02g kolejnytest
+23
+testzlyparam #2n coszle
+123123
+testkolejnyblednydwa #d#04g coszle
+999119
+testbledny #0d4g kolejnytest
+23
+testogarniety #d04g kolejnytest
+23456
+testkolejnybledny ##04g coszle
+999119
 testczwarty #1g nastepnytest
 23
+testkolejny #09g wielezer
+4
+testkolejny #009g sprawdzmy
+4
+testkolejny #0009g tezzadziala
+45
+testkolejny #0009g tutajbezzer
+451235543987539
+samehashe #### testowanko
+444333
