@@ -1,0 +1,28 @@
+testpierwszy 0 nowytest
+testdrugi 012345 nastepnytest
+testtrzeci  01 nastepnytest
+testdzialajacy   01 nastepnytest
+testkolejny 012 nastepnytest
+testnastepny 0012 kolejnytest
+testnormalny 12 kolejnytest
+testprzystepny 12 kolejnytest
+testzlyparam #2n coszle
+testkolejnyblednydwa #d#04g coszle
+testbledny 12 kolejnytest
+testogarniety 12345 kolejnytest
+testkolejnybledny ##04g coszle
+testczwarty 12 nastepnytest
+testkolejny 000000003 wielezer
+testkolejny 000000003 sprawdzmy
+testkolejny 000000034 tezzadziala
+testkolejny 340124432876428 tutajbezzer
+samehashe #### testowanko
+spacje     brak
+spacjezliterko    d   brak
+znaczki 0 nowytest
+znaczki 0 nowytest
+ostatniprzypadek $55g ogarniecie
+nowyprzypadek012012dalszytekst
+test #4#4g testnowy
+przypadekomg 345 nowyprzypadekd
+zmianka 9988 zmiankanowa
