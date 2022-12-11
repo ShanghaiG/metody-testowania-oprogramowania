@@ -62,4 +62,17 @@ testtrzyjeden #.g pusty
 999
 testtrzydwa #.g pusty
 000
-
+testtrzytrzy # .g pusty
+4567
+testtrzycztery # .5g pusty
+91910
+testtrzypiec#.5gpusty
+12345
+testtrzyszesc #.004g nowy
+#$%123123dd54$
+testtrzysiedem $.01g nowy
+989785@@#@
+testtrzyosiem #0009g tezzadziala
+45
+testkolejny #0009g tutajbezzer
+451235543987539
