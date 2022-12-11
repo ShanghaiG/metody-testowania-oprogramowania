@@ -54,3 +54,7 @@ przypadekomg #2g nowyprzypadekd
 456dd33dd
 zmianka #2g zmiankanowa
 0099
+testdwadziewiec #.0g takiprzypadek
+123
+testtrzydziesci #.5g nowyprzypadek
+345

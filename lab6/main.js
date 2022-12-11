@@ -22,10 +22,19 @@ function changeNumber (singleNumber, shouldBeChanged) {
 	}
 }
 
-
 function myPrintf(formatString, param){
-	let firstStringArray = formatString.split("#");
+	let shouldBeChanged = false;
 
+	let firstStringArray = null;
+
+	if(formatString.includes("#.")) {
+		firstStringArray = formatString.split("#.");
+		shouldBeChanged = true;
+	} else {
+		firstStringArray = formatString.split("#");
+	}
+
+	
 	if(firstStringArray.length < 2) {
 		process.stdout.write(formatString);
 		console.log("");
@@ -72,7 +81,7 @@ function myPrintf(formatString, param){
 
 	for(let letter of parsedParam) {
 		if(checkIfNumber(letter)){
-			finalNumber += changeNumber(+letter);
+			finalNumber += changeNumber(+letter, shouldBeChanged);
 		} else {
 			break; 
 		}
