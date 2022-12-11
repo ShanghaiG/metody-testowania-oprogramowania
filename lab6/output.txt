@@ -29,3 +29,12 @@ zmianka 9988 zmiankanowa
 testdwadziewiec 098 takiprzypadek
 testtrzydziesci   876 nowyprzypadek
 testtrzyjeden 222 pusty
+testtrzydwa 999 pusty
+testtrzytrzy 3456 pusty
+testtrzycztery 80809 pusty
+testtrzypiec09876pusty
+testtrzyszesc 0 nowy
+testtrzysiedem $.01g nowy
+testtrzyosiem 000000076 tezzadziala
+testtrzydziewiec 760986678234682 tutajbezzer
+testczterdziesty 0 jakiessmieci

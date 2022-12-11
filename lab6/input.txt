@@ -72,7 +72,9 @@ testtrzyszesc #.004g nowy
 #$%123123dd54$
 testtrzysiedem $.01g nowy
 989785@@#@
-testtrzyosiem #0009g tezzadziala
+testtrzyosiem #.0009g tezzadziala
 45
-testkolejny #0009g tutajbezzer
+testtrzydziewiec #.0009g tutajbezzer
 451235543987539
+testczterdziesty #.5g jakiessmieci
+^&yt5%43!!&##fgr3245
