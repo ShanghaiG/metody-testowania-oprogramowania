@@ -9,10 +9,15 @@ function checkIfNumber (letter) {
 }
 
 
-function shiftNumber (singleNumber) {
+function changeNumber (singleNumber, shouldBeChanged) {
 	if(singleNumber === 0) {
 		return 9;
-	} else {
+	} 
+	else if (singleNumber && shouldBeChanged) {
+		const newNumber = (((singleNumber * 9) + 1) %10);
+		return newNumber;
+	}
+	else {
 		return singleNumber-1;
 	}
 }
@@ -67,7 +72,7 @@ function myPrintf(formatString, param){
 
 	for(let letter of parsedParam) {
 		if(checkIfNumber(letter)){
-			finalNumber += shiftNumber(+letter);
+			finalNumber += changeNumber(+letter);
 		} else {
 			break; 
 		}
