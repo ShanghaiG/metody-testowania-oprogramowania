@@ -26,3 +26,5 @@ nowyprzypadek012012dalszytekst
 test #4#4g testnowy
 przypadekomg 345 nowyprzypadekd
 zmianka 9988 zmiankanowa
+testdwadziewiec 098 takiprzypadek
+testtrzydziesci   876 nowyprzypadek
