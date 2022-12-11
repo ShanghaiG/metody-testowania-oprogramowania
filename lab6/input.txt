@@ -78,3 +78,17 @@ testtrzydziewiec #.0009g tutajbezzer
 451235543987539
 testczterdziesty #.5g jakiessmieci
 ^&yt5%43!!&##fgr3245
+testczteryjeden  #4#.4g coteraz
+123
+testczterydwa #.4#4g atak
+9900
+testczterytrzy #.4#.4g nowytest
+8899
+testczterycztery #d#.04g kolejnytest
+1234
+testczterypiec #. ibezzmian
+444
+testczteryszesc #.5 brakzmian
+0090
+testczterysiedem # . 5 g zadziala
+1212
