@@ -29,7 +29,8 @@ function myPrintf(formatString, param){
 
 	if(formatString.includes("#.")) {
 		firstStringArray = formatString.split("#.");
-		shouldBeChanged = true;
+	
+		shouldBeChanged = firstStringArray.length !== 2 ? false : true;
 	} else {
 		firstStringArray = formatString.split("#");
 	}

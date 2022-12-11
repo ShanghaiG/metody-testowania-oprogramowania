@@ -38,3 +38,10 @@ testtrzysiedem $.01g nowy
 testtrzyosiem 000000076 tezzadziala
 testtrzydziewiec 760986678234682 tutajbezzer
 testczterdziesty 0 jakiessmieci
+testczteryjeden  #4 098 coteraz
+testczterydwa 2299 atak
+testczterytrzy #.4#.4g nowytest
+testczterycztery #d0987 kolejnytest
+testczterypiec #. ibezzmian
+testczteryszesc #.5 brakzmian
+testczterysiedem testy zadziala
