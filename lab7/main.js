@@ -8,8 +8,14 @@ function checkIfNumber (letter) {
 		return /^\d+$/.test(letter);
 }
 
-function convertToHexadecimal() {
+function convertToHexadecimal(number) {
+	let hexaDecimalNumber;
 
+	let hexaDecimalString = number.toSting(16);
+
+	hexaDecimalNumber = parseInt(hexaDecimalString, 16);
+
+	return hexaDecimalNumber;
 }
 
 
@@ -38,13 +44,6 @@ function myPrintf(formatString, param){
 
 	const lastPartOfString = secondStringArray[1];
 
-	let numbers = 0;
-
-	let fillWith = null;
-
-
-	let finalNumber = "";
-
 	let parsedParam = param;
 
 	if(!parsedParam) {
@@ -59,10 +58,12 @@ function myPrintf(formatString, param){
 		return;
 	}
 
+	let hexaDecimalNumber;
+	if(checkIfNumber(parsedParam))  {
+		hexaDecimalNumber = convertToHexadecimal(parsedParam);
+	}
 
-	const replacedString = finalNumber.padStart(numbers, fillWith);
-
-	process.stdout.write(`${firstPartOfString}${replacedString}${lastPartOfString}`);
+	process.stdout.write(`${firstPartOfString}${hexaDecimalNumber}${lastPartOfString}`);
 	console.log("");
 	return;
 	
