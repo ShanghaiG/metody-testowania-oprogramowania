@@ -38,3 +38,15 @@ testosiemnasty #j nastepnytest
 somestring
 testdziewietnasty #k nastepnytest
 444
+testdwudziesty k nastepnytest
+5
+testdwajeden #.j nastepnytest
+35
+testdwadwa #4j nastepnytest
+55
+testdwatrzy j# nastepnytest
+99
+testdwacztery ##j nastepnytest
+11
+testdwapiec #j#j nastepnytest
+12

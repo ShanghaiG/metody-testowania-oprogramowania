@@ -1,6 +1,26 @@
-testpierwszy #j nowytest
-testdrugi #j nastepnytest
-testtrzeci #j nastepnytest
-testczwarty #j nastepnytest
-testpiaty #j nastepnytest
-testszosty #j nastepnytest
+testzero 9 nowytest
+testpierwszy g nowytest
+testdrugi h nastepnytest
+testtrzeci i nastepnytest
+testczwarty j nastepnytest
+testpiaty k nastepnytest
+testszosty l nastepnytest
+testsiodmy 10 nastepnytest
+testosmy ll nastepnytest
+testdziewiaty 80 nastepnytest
+testdziesiaty 90 nastepnytest
+testjedenasty 0 nastepnytest
+testdwuansty 0 nastepnytest
+testtrzynasty nastepnytest
+testczternasty4jnastepnytest
+testpietnastyjnastepnytest
+testszesnasty  nastepnytest
+testsiedemnasty 0 nastepnytest
+testosiemnasty 0 nastepnytest
+testdziewietnasty #k nastepnytest
+testdwudziesty k nastepnytest
+testdwajeden #.j nastepnytest
+testdwadwa #4j nastepnytest
+testdwatrzy j# nastepnytest
+testdwacztery #h nastepnytest
+testdwapiec #j#j nastepnytest
