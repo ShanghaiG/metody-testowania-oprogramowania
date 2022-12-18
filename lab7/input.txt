@@ -1,94 +1,12 @@
-testpierwszy #g nowytest
-$d12dd345dd
-testdrugi #3g nastepnytest
-123456
-testtrzeci #3g nastepnytest
+testpierwszy #j nowytest
+11
+testdrugi #j nastepnytest
 12
-testdzialajacy #4g nastepnytest
-12
-testkolejny #03g nastepnytest
-23
-testnastepny #04g kolejnytest
-23
-testnormalny #01g kolejnytest
-23
-testprzystepny #02g kolejnytest
-23
-testzlyparam #2n coszle
-123123
-testkolejnyblednydwa #d#04g coszle
-999119
-testbledny #0d4g kolejnytest
-23
-testogarniety #d04g kolejnytest
-23456
-testkolejnybledny ##04g coszle
-999119
-testczwarty #1g nastepnytest
-23
-testkolejny #09g wielezer
-4
-testkolejny #009g sprawdzmy
-4
-testkolejny #0009g tezzadziala
-45
-testkolejny #0009g tutajbezzer
-451235543987539
-samehashe #### testowanko
-444333
-spacje     brak
-123123
-spacjezliterko    d   brak
-123123
-znaczki #2g nowytest
-#$%123123$$
-znaczki #04g nowytest
-#$%123123dd54$
-ostatniprzypadek $55g ogarniecie
-789123
-nowyprzypadek#5gdalszytekst
-123123
-test #4#4g testnowy
-4444
-przypadekomg #2g nowyprzypadekd
-456dd33dd
-zmianka #2g zmiankanowa
-0099
-testdwadziewiec #.0g takiprzypadek
-123
-testtrzydziesci #.5g nowyprzypadek
-345
-testtrzyjeden #.g pusty
-999
-testtrzydwa #.g pusty
-000
-testtrzytrzy # .g pusty
-4567
-testtrzycztery # .5g pusty
-91910
-testtrzypiec#.5gpusty
-12345
-testtrzyszesc #.004g nowy
-#$%123123dd54$
-testtrzysiedem $.01g nowy
-989785@@#@
-testtrzyosiem #.0009g tezzadziala
-45
-testtrzydziewiec #.0009g tutajbezzer
-451235543987539
-testczterdziesty #.5g jakiessmieci
-^&yt5%43!!&##fgr3245
-testczteryjeden  #4#.4g coteraz
-123
-testczterydwa #.4#4g atak
-9900
-testczterytrzy #.4#.4g nowytest
-8899
-testczterycztery #d#.04g kolejnytest
-1234
-testczterypiec #. ibezzmian
-444
-testczteryszesc #.5 brakzmian
-0090
-testczterysiedem # . 5 g zadziala
-1212
+testtrzeci #j nastepnytest
+13
+testczwarty #j nastepnytest
+14
+testpiaty #j nastepnytest
+15
+testszosty #j nastepnytest
+16
