@@ -8,34 +8,18 @@ function checkIfNumber (letter) {
 		return /^\d+$/.test(letter);
 }
 
+function convertToHexadecimal() {
 
-function changeNumber (singleNumber, shouldBeChanged) {
-	if(singleNumber === 0) {
-		return 9;
-	} 
-	else if (singleNumber && shouldBeChanged) {
-		const newNumber = (((singleNumber * 9) + 1) %10);
-		return newNumber;
-	}
-	else {
-		return singleNumber-1;
-	}
 }
 
-function myPrintf(formatString, param){
-	let shouldBeChanged = false;
 
+function myPrintf(formatString, param){
 	let firstStringArray = null;
 
-	if(formatString.includes("#.")) {
-		firstStringArray = formatString.split("#.");
-	
-		shouldBeChanged = firstStringArray.length !== 2 ? false : true;
-	} else {
-		firstStringArray = formatString.split("#");
+	if(formatString.includes("#j")) {
+		firstStringArray = formatString.split("#j");
 	}
 
-	
 	if(firstStringArray.length < 2) {
 		process.stdout.write(formatString);
 		console.log("");
@@ -44,7 +28,7 @@ function myPrintf(formatString, param){
 
 	const firstPartOfString = firstStringArray[0];
 
-	let secondStringArray  = firstStringArray[1].split(/g(.*)/s, 2);
+	let secondStringArray  = firstStringArray[1].split(/j(.*)/s, 2);
 
 	if(secondStringArray.length < 2) {
 		process.stdout.write(formatString);
@@ -58,11 +42,6 @@ function myPrintf(formatString, param){
 
 	let fillWith = null;
 
-	if(checkIfNumber(secondStringArray[0])) {
-		numbers = +secondStringArray[0];
-
-		fillWith = secondStringArray[0].startsWith("0") ? "0" : " ";
-	}	
 
 	let finalNumber = "";
 
@@ -80,14 +59,6 @@ function myPrintf(formatString, param){
 		return;
 	}
 
-	for(let letter of parsedParam) {
-		if(checkIfNumber(letter)){
-			finalNumber += changeNumber(+letter, shouldBeChanged);
-		} else {
-			break; 
-		}
-		
-	}
 
 	const replacedString = finalNumber.padStart(numbers, fillWith);
 
