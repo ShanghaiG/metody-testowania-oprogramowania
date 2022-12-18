@@ -12,3 +12,15 @@ testpiaty #j nastepnytest
 14
 testszosty #j nastepnytest
 15
+testsiodmy #j nastepnytest
+16
+testosmy #j nastepnytest
+255
+testdziewiaty #j nastepnytest
+128
+testdziesiaty #j nastepnytest
+144
+testjedenasty #j nastepnytest
+a1a
+testdwuansty #j nastepnytest
+bb@

@@ -5,3 +5,9 @@ testtrzeci i nastepnytest
 testczwarty j nastepnytest
 testpiaty k nastepnytest
 testszosty l nastepnytest
+testsiodmy 10 nastepnytest
+testosmy ll nastepnytest
+testdziewiaty 80 nastepnytest
+testdziesiaty 90 nastepnytest
+testjedenasty 0 nastepnytest
+testdwuansty 0 nastepnytest
