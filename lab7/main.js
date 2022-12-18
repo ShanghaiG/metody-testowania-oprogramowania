@@ -9,12 +9,30 @@ function checkIfNumber (letter) {
 }
 
 function convertToHexadecimal(number) {
-	let hexaDecimalString = number.toString(16).toUpperCase();
+	let hexaDecimalString = number.toString(16);
 
 	return hexaDecimalString;
 }
 
+function convertAFrangeToGM (hexaDecimalNumber) {
+	let tempHexaDecimalNumber;
 
+	tempHexaDecimalNumber = hexaDecimalNumber.split("");
+
+	tempHexaDecimalNumber = tempHexaDecimalNumber.map((element) => {
+		if(element >= "a" && element <= "f") {
+			return getShiftedChar(element, 6);
+		}
+		return element;
+	})
+
+
+	return tempHexaDecimalNumber.join("");
+}
+
+function getShiftedChar(char, value) {
+	return String.fromCharCode(char.charCodeAt(0) + value);
+} 
 
 function myPrintf(formatString, param){
 	let stringArray = null;
@@ -52,6 +70,7 @@ function myPrintf(formatString, param){
 	let hexaDecimalNumber;
 	if(checkIfNumber(+parsedParam))  {
 		hexaDecimalNumber = convertToHexadecimal(+parsedParam);
+		hexaDecimalNumber = convertAFrangeToGM(hexaDecimalNumber);
 	}
 
 	process.stdout.write(`${firstPartOfString}${hexaDecimalNumber}${lastPartOfString}`);
