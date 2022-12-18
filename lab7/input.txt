@@ -1,12 +1,14 @@
+testzero #j nowytest
+9
 testpierwszy #j nowytest
-11
+10
 testdrugi #j nastepnytest
-12
+11
 testtrzeci #j nastepnytest
-13
+12
 testczwarty #j nastepnytest
-14
+13
 testpiaty #j nastepnytest
-15
+14
 testszosty #j nastepnytest
-16
+15

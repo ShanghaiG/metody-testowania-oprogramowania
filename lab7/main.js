@@ -9,40 +9,31 @@ function checkIfNumber (letter) {
 }
 
 function convertToHexadecimal(number) {
-	let hexaDecimalNumber;
+	let hexaDecimalString = number.toString(16).toUpperCase();
 
-	let hexaDecimalString = number.toSting(16);
-
-	hexaDecimalNumber = parseInt(hexaDecimalString, 16);
-
-	return hexaDecimalNumber;
+	return hexaDecimalString;
 }
 
 
+
 function myPrintf(formatString, param){
-	let firstStringArray = null;
+	let stringArray = null;
 
 	if(formatString.includes("#j")) {
-		firstStringArray = formatString.split("#j");
+		stringArray = formatString.split("#j");
 	}
 
-	if(firstStringArray.length < 2) {
+
+	if(stringArray.length !== 2) {
 		process.stdout.write(formatString);
 		console.log("");
 		return;
 	}
 
-	const firstPartOfString = firstStringArray[0];
+	const firstPartOfString = stringArray[0];
 
-	let secondStringArray  = firstStringArray[1].split(/j(.*)/s, 2);
+	let lastPartOfString  = stringArray[1].split(/j(.*)/s, 2);
 
-	if(secondStringArray.length < 2) {
-		process.stdout.write(formatString);
-		console.log("");
-		return;
-	}
-
-	const lastPartOfString = secondStringArray[1];
 
 	let parsedParam = param;
 
@@ -59,8 +50,8 @@ function myPrintf(formatString, param){
 	}
 
 	let hexaDecimalNumber;
-	if(checkIfNumber(parsedParam))  {
-		hexaDecimalNumber = convertToHexadecimal(parsedParam);
+	if(checkIfNumber(+parsedParam))  {
+		hexaDecimalNumber = convertToHexadecimal(+parsedParam);
 	}
 
 	process.stdout.write(`${firstPartOfString}${hexaDecimalNumber}${lastPartOfString}`);

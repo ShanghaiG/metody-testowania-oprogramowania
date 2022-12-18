@@ -1,6 +1,14 @@
-testpierwszy #j nowytest
-testdrugi #j nastepnytest
-testtrzeci #j nastepnytest
-testczwarty #j nastepnytest
-testpiaty #j nastepnytest
-testszosty #j nastepnytest
+co w hexaDecimalString 9
+testzero 9 nowytest
+co w hexaDecimalString A
+testpierwszy 10 nowytest
+co w hexaDecimalString B
+testdrugi 11 nastepnytest
+co w hexaDecimalString C
+testtrzeci 12 nastepnytest
+co w hexaDecimalString D
+testczwarty 13 nastepnytest
+co w hexaDecimalString E
+testpiaty 14 nastepnytest
+co w hexaDecimalString F
+testszosty 15 nastepnytest
