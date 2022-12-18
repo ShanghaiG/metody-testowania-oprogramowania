@@ -24,3 +24,17 @@ testjedenasty #j nastepnytest
 a1a
 testdwuansty #j nastepnytest
 bb@
+testtrzynasty nastepnytest
+44
+testczternasty#jnastepnytest
+77
+testpietnastyjnastepnytest
+99
+testszesnasty #j nastepnytest
+777@@@
+testsiedemnasty #j nastepnytest
+%%^&123
+testosiemnasty #j nastepnytest
+somestring
+testdziewietnasty #k nastepnytest
+444

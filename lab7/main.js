@@ -37,9 +37,9 @@ function getShiftedChar(char, value) {
 function myPrintf(formatString, param){
 	let stringArray = null;
 
-	if(formatString.includes("#j")) {
-		stringArray = formatString.split("#j");
-	}
+
+	stringArray = formatString.split("#j");
+
 
 
 	if(stringArray.length !== 2) {
@@ -50,7 +50,7 @@ function myPrintf(formatString, param){
 
 	const firstPartOfString = stringArray[0];
 
-	let lastPartOfString  = stringArray[1].split(/j(.*)/s, 2);
+	let lastPartOfString  = stringArray[1];
 
 
 	let parsedParam = param;
@@ -67,7 +67,7 @@ function myPrintf(formatString, param){
 		return;
 	}
 
-	let hexaDecimalNumber;
+	let hexaDecimalNumber = "";
 	if(checkIfNumber(+parsedParam))  {
 		hexaDecimalNumber = convertToHexadecimal(+parsedParam);
 		hexaDecimalNumber = convertAFrangeToGM(hexaDecimalNumber);

@@ -1,13 +1,30 @@
+number 9
 testzero 9 nowytest
+number 10
 testpierwszy g nowytest
+number 11
 testdrugi h nastepnytest
+number 12
 testtrzeci i nastepnytest
+number 13
 testczwarty j nastepnytest
+number 14
 testpiaty k nastepnytest
+number 15
 testszosty l nastepnytest
+number 16
 testsiodmy 10 nastepnytest
+number 255
 testosmy ll nastepnytest
+number 128
 testdziewiaty 80 nastepnytest
+number 144
 testdziesiaty 90 nastepnytest
 testjedenasty 0 nastepnytest
 testdwuansty 0 nastepnytest
+testtrzynasty nastepnytest
+number 77
+testczternasty4jnastepnytest
+testszesnasty  nastepnytest
+testsiedemnasty 0 nastepnytest
+testosiemnasty 0 nastepnytest
