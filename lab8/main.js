@@ -9,7 +9,15 @@ function checkIfNumber (letter) {
 }
 
 function convertToHexadecimal(number, numberOfElements) {
-	let hexaDecimalString = number.toString(16);
+	let tempNumber = `${number}`;
+
+	if(tempNumber && numberOfElements) {
+		tempNumber = tempNumber.slice(0, numberOfElements);
+	}
+
+	let parsedNumber = parseInt(tempNumber);
+
+	let hexaDecimalString = parsedNumber.toString(16);
 
 	return hexaDecimalString;
 }
