@@ -23,6 +23,9 @@ function convertAFrangeToGM (hexaDecimalNumber) {
 		if(element >= "a" && element <= "f") {
 			return getShiftedChar(element, 6);
 		}
+		if(element === "0") {
+			return "o";
+		}
 		return element;
 	})
 
