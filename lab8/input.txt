@@ -1,0 +1,52 @@
+testzero #j nowytest
+9
+testpierwszy #j nowytest
+10
+testdrugi #j nastepnytest
+11
+testtrzeci #j nastepnytest
+12
+testczwarty #j nastepnytest
+13
+testpiaty #j nastepnytest
+14
+testszosty #j nastepnytest
+15
+testsiodmy #j nastepnytest
+16
+testosmy #j nastepnytest
+255
+testdziewiaty #j nastepnytest
+128
+testdziesiaty #j nastepnytest
+144
+testjedenasty #j nastepnytest
+a1a
+testdwuansty #j nastepnytest
+bb@
+testtrzynasty nastepnytest
+44
+testczternasty#jnastepnytest
+77
+testpietnastyjnastepnytest
+99
+testszesnasty #j nastepnytest
+777@@@
+testsiedemnasty #j nastepnytest
+%%^&123
+testosiemnasty #j nastepnytest
+somestring
+testdziewietnasty #k nastepnytest
+444
+testdwudziesty k nastepnytest
+5
+testdwajeden #.j nastepnytest
+35
+testdwadwa #4j nastepnytest
+55
+testdwatrzy j# nastepnytest
+99
+testdwacztery ##j nastepnytest
+11
+testdwapiec #j#j nastepnytest
+12
