@@ -12,7 +12,17 @@ function convertToHexadecimal(number, numberOfElements) {
 	let tempNumber = `${number}`;
 
 	if(tempNumber && numberOfElements) {
-		tempNumber = tempNumber.slice(0, numberOfElements);
+		if(tempNumber.length < numberOfElements) {
+		tempNumber = tempNumber[0].startsWith("0") ? "0" : " ";
+
+		const diff = numberOfElements - tempNumber.length;
+
+
+		for(let i = 0; i < diff; i++) {
+			tempNumber = "0" + tempNumber;
+		}
+
+		} 
 	}
 
 	let parsedNumber = parseInt(tempNumber);
@@ -48,7 +58,7 @@ function getShiftedChar(char, value) {
 function myPrintf(formatString, param){
 	let stringArray = null;
 
-	let hashSplitArray  = formatString.split("#");
+	let hashSplitArray  = formatString.split("#.");
 
 	const firstPartOfString = hashSplitArray[0];
 
