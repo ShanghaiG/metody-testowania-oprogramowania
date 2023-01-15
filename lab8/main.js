@@ -40,20 +40,17 @@ function getShiftedChar(char, value) {
 function myPrintf(formatString, param){
 	let stringArray = null;
 
+	let hashSplitArray  = formatString.split("#");
 
-	stringArray = formatString.split("#j");
+	const firstPartOfString = hashSplitArray[0];
+
+	let secondStringArray  = firstPartOfString[1].split(/j(.*)/s, 2);
+
+	
+	let numberOfElements = secondStringArray[0];
 
 
-
-	if(stringArray.length !== 2) {
-		process.stdout.write(formatString);
-		console.log("");
-		return;
-	}
-
-	const firstPartOfString = stringArray[0];
-
-	let lastPartOfString  = stringArray[1];
+	let lastPartOfString  = secondStringArray[1];
 
 
 	let parsedParam = param;
