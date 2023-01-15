@@ -8,22 +8,8 @@ function checkIfNumber (letter) {
 		return /^\d+$/.test(letter);
 }
 
-function convertToHexadecimal(number, numberOfElements) {
+function convertToHexadecimal(number) {
 	let tempNumber = `${number}`;
-
-	if(tempNumber && numberOfElements) {
-		if(tempNumber.length < numberOfElements) {
-		tempNumber = tempNumber[0].startsWith("0") ? "0" : " ";
-
-		const diff = numberOfElements - tempNumber.length;
-
-
-		for(let i = 0; i < diff; i++) {
-			tempNumber = "0" + tempNumber;
-		}
-
-		} 
-	}
 
 	let parsedNumber = parseInt(tempNumber);
 
@@ -62,7 +48,8 @@ function myPrintf(formatString, param){
 
 	const firstPartOfString = hashSplitArray[0];
 
-	let secondStringArray  = firstPartOfString[1].split(/j(.*)/s, 2);
+
+	let secondStringArray  = hashSplitArray[1].split(/j(.*)/s, 2);
 
 	
 	let numberOfElements = secondStringArray[0];
@@ -87,8 +74,9 @@ function myPrintf(formatString, param){
 
 	let hexaDecimalNumber = "";
 	if(checkIfNumber(+parsedParam))  {
-		hexaDecimalNumber = convertToHexadecimal(+parsedParam, +numberOfElements);
+		hexaDecimalNumber = convertToHexadecimal(+parsedParam);
 		hexaDecimalNumber = convertAFrangeToGM(hexaDecimalNumber);
+		hexaDecimalNumber = hexaDecimalNumber.padStart(+numberOfElements, "0");
 	}
 
 	process.stdout.write(`${firstPartOfString}${hexaDecimalNumber}${lastPartOfString}`);
