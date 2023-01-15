@@ -8,7 +8,7 @@ function checkIfNumber (letter) {
 		return /^\d+$/.test(letter);
 }
 
-function convertToHexadecimal(number) {
+function convertToHexadecimal(number, numberOfElements) {
 	let hexaDecimalString = number.toString(16);
 
 	return hexaDecimalString;
@@ -69,7 +69,7 @@ function myPrintf(formatString, param){
 
 	let hexaDecimalNumber = "";
 	if(checkIfNumber(+parsedParam))  {
-		hexaDecimalNumber = convertToHexadecimal(+parsedParam);
+		hexaDecimalNumber = convertToHexadecimal(+parsedParam, +numberOfElements);
 		hexaDecimalNumber = convertAFrangeToGM(hexaDecimalNumber);
 	}
 
